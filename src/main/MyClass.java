@@ -12,4 +12,8 @@ public class MyClass{
   public int suma(int a, int b){
     return a+b;
   }
+  
+  public boolean devuelveExcepcion(){
+    throw new IndexOutOfBoundsException();  
+  }
 }
