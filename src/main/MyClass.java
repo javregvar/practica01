@@ -6,7 +6,7 @@ public class MyClass{
   }
   
   public String devuelveMensaje(){
-    return "Hello World!";
+    return "HELLO JAVI";
   }
   
   public int suma(int a, int b){
