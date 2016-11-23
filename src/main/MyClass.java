@@ -13,7 +13,7 @@ public class MyClass{
     return a+b;
   }
   
-  public boolean devuelveExcepcion(){
+  public boolean devuelveExcepcion() throws IndexOutOfBoundsException{
     throw new IndexOutOfBoundsException();  
   }
 }
