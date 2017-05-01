@@ -1,10 +1,4 @@
 public class Pruebas {
-
-	public static void cuentaHasta10(){
-		for(int i=1;i<=10;i++){
-			System.out.println(i);
-		}
-	}
 	
 	public static void cuentaHastaN(int N){
 		if(N>0){
@@ -19,12 +13,8 @@ public class Pruebas {
 	}
 	
 	public static void main(String[] args){
-		int n = 5;
-		cuentaHastaN(n);
-		cuentaHasta10();
-		
-		n=-5;
-		cuentaHastaN(n);
+		cuentaHastaN(5);
+		cuentaHastaN(-5);
 	}
 	
 }
